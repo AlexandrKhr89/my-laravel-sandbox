@@ -24,3 +24,5 @@ Route::get('/my_page', function () {
 Route::get('/hello-world', function () {
     return 'Hello World! ! ! ! ! ! _ _ _';
 });
+
+Route::get('my-page-from-controller', 'MyPlaceController@index');
