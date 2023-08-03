@@ -26,3 +26,5 @@ Route::get('/hello-world', function () {
 });
 
 Route::get('my-page-from-controller', 'MyPlaceController@index');
+
+Route::get('posts', 'PostController@index');
