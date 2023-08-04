@@ -10,4 +10,13 @@ class Post extends Model
     public $somePropertiForDdTesting;
 
     use HasFactory;
+    protected $table = 'posts';
+    // protected $guarded = false;
+    protected $fillable = [
+        'title',
+        'content',
+        'image',
+        'likes',
+        'is_published',
+    ];
 }
